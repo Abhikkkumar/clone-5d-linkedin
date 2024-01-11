@@ -1,0 +1,64 @@
+.heroL{
+    --bg-color-darker:#02131b;
+    --bg-color-dark:#12242c;
+    --hero-text-color: #16c995;
+    background-image: url("../img/653fa77401a80aefd551db57_SAP_Product Day-3.webp");
+    background-position: 10% 50%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    
+}
+.heroL .d-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.h-details{
+    background-color: var(--bg-color-darker);
+    width: 48%;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin:.5% auto;
+    padding: 1rem;
+}
+/* @media (min-width:1240px) {
+    .h-details{
+        min-height: 88.333px;
+    }
+} */
+.h-details p{
+    margin-left: .4rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.d-2 div{
+    width: 40%;
+    text-align: left;
+    padding: 1.5% 0;
+}
+.d-2 h2{
+    color: var(--icon-white);
+}
+.d-2{
+    display: flex;
+    justify-content: flex-end;
+}
+.d-3 div{
+    width: 50%;
+}
+.d-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.d-3 div{
+    width: 48%;
+}
+.d-3 img{
+    width: 100%;
+}

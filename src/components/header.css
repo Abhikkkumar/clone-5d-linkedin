@@ -1,0 +1,25 @@
+.header{
+    --icon-white:#fff;
+    background-image: url("../img/656f2e06c03b057f9df271ea_YES201-p-2000.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1.2rem .2rem;
+    width: 100%;
+}
+
+.header img{
+    width: 15%;
+
+}
+.header p{
+    color:var(--icon-white) ;
+}
+.f-one-bold{
+    font-size: 1.65rem;
+    font-weight: 500;
+}
