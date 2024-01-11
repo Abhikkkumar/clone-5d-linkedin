@@ -29,13 +29,18 @@ export default function First() {
         </div>
         <div className="right">
           <iframe
-            
-            
-            src="https://youtu.be/A5pSnIwbpaM?si=XEsquIQXvCDvkqmT"
+            src="https://www.youtube.com/embed/riO9rwCbq18?si=oCaQ7Hf9Rag1syod"
+            title="YouTube video player"
             frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
-            title="YouTube Video"
           ></iframe>
+          <div>
+            <p>Reserve a seat before January 11, 2024 to unlock</p>
+            <p> Bonuses worth ₹45,000</p>
+          </div>
+
+          <button>Reserve Seat for 249</button>
         </div>
       </div>
     </div>
