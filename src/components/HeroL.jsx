@@ -1,5 +1,5 @@
 import React from "react";
-import "./heroL.css";
+import "../style/heroL.css";
 import clock from "../img/60d4e6508e4e0d3d23669fba_Vector-2.svg";
 import videoIcon from "../img/60d4e6511fcd6385aa72ac2c_Vector.svg";
 import calendar from "../img/60d4e65262351a5934d23184_Vector-3.svg";

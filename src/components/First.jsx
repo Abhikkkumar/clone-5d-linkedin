@@ -1,5 +1,5 @@
 import React from "react";
-import "./first.css";
+import "../style/first.css";
 import Header from "./Header";
 import HeroL from "./HeroL";
 

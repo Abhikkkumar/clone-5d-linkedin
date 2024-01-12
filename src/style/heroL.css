@@ -8,6 +8,12 @@
     background-repeat: no-repeat;
     
 }
+@media (max-width:879px) and (min-width:275px){
+    .heroL{
+        background-position: 10% 65%;
+        background-size: 50%;
+    }
+}
 .heroL .d-1{
     display: flex;
     justify-content: space-around;

@@ -15,23 +15,24 @@
   justify-content: space-between;
   text-align: center;
   /* padding: 0 15%; */
+  padding-bottom: 10%;
 }
 .sub {
   width: 85%;
   margin-bottom: 1%;
 }
-.sub-1{
+.sub-1 {
   padding: 0 20%;
   margin: 10% auto;
 }
-.sub-1 div:nth-child(2){
+.sub-1 div:nth-child(2) {
   margin: 2% auto;
 }
 @media (max-width: 768px) {
   .sub-2 {
     width: 95%;
   }
-  .sub-1{
+  .sub-1 {
     padding: 0 10%;
   }
 }
@@ -43,13 +44,12 @@
     width: 90% !important;
     margin-top: 3%;
   }
-  .heroL{
+  .heroL {
     padding: 5% 1%;
   }
-  .sub-1{
+  .sub-1 {
     padding: 0 3%;
   }
-  
 }
 .sub h1,
 p {
@@ -75,11 +75,10 @@ p {
   width: 100%;
   min-height: 300px;
   border-radius: 15px;
-  max-height:315px ;
+  max-height: 315px;
   max-width: 600px;
-
 }
-.right button{
+.right button {
   width: 98%;
   max-width: 600px;
   min-height: 5.5rem;
@@ -89,9 +88,8 @@ p {
   border: none;
   font-size: 1.55rem;
   color: var(--icon-white);
-  margin-top: .85%;
+  margin-top: 0.85%;
 }
-.right p{
+.right p {
   font-size: 1.2rem;
-  
 }
