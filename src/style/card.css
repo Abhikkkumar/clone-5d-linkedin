@@ -1,0 +1,41 @@
+.card {
+  max-width: 300px;
+  padding: 0.5rem 0.8rem;
+  /* background-color: #aaa; */
+  border-radius: 0.7rem;
+}
+.d-sub {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 0.5rem 0;
+}
+.d-sub img {
+  width: 8%;
+  margin-right: 0.5rem;
+}
+.d-sub p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+  border: 1px solid #29cf84;
+  border-radius: 6px;
+}
+.c-left {
+  text-align: left;
+}
+.c-name {
+  margin-bottom: 4px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.p-photo {
+  min-width: 3.8rem;
+  min-height: 3.8rem;
+}

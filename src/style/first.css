@@ -52,7 +52,7 @@
   }
 }
 .sub h1,
-p {
+.sub p {
   color: var(--icon-white);
 }
 .sub-2 {

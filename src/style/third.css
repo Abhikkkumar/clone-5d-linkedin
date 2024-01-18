@@ -1,0 +1,124 @@
+.third {
+  --hero-text-color: #16c995;
+  --icon-white: #fff;
+  text-align: center;
+  max-width: 1020px;
+  margin: auto;
+  width: 70%;
+}
+
+.th-1,
+.th-2 {
+  width: 48%;
+  text-align: left;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .th-1,
+  .th-2 {
+    width: 95%;
+    padding-right: 0.5rem;
+  }
+  /* .third form{
+    flex-direction: column;
+  } */
+}
+.third form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.inpt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.inpt input[type="checkbox"] {
+  -webkit-appearance: none; /* WebKit browsers like Chrome and Safari */
+  -moz-appearance: none; /* Firefox */
+  appearance: none; /* Standard syntax */
+  border: 3px solid var(--hero-text-color);
+  background-color: var(--icon-white);
+  border-radius: 5px;
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+.third p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.checkbox-context {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 61px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.orange-text {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#ffb800, #ff9877);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.cta-big-3.w-inline-block {
+  content: "";
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  -webkit-animation: animatedgradient 3s ease infinite alternate;
+  animation: animatedgradient 3s ease infinite alternate;
+  background-size: 300% 300%;
+}
+.cta-big-3 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(
+    62deg,
+    #f79533,
+    #f37055 16%,
+    #ef4e7b 32%,
+    #a166ab 48%,
+    #5073b8 64%,
+    #1098ad 80%,
+    #07b39b
+  );
+  border-radius: 7px;
+  border: none;
+  padding: 37px 16px;
+  font-size: 24px;
+  font-weight: 600;
+  transition: transform 0.3s;
+  box-shadow: 0 12px 60px rgba(0, 0, 0, 0.2);
+}
+.cta-big-3 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(135deg, #7b56ee, #f2468c 94%);
+  border-radius: 7px;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.3s;
+  box-shadow: 0 12px 60px rgba(0, 0, 0, 0.2);
+}
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
