@@ -118,11 +118,27 @@
   align-content: center;
   justify-content: space-around;
   margin: 2% auto;
+  flex-wrap: wrap;
 }
-.nine-text div:first-child{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 768px) {
+  .nine-text {
+    flex-direction: column-reverse;
+  }
+  .nine-text img {
+    margin: 2% auto;
+  }
+  .nine-text div:first-child {
+    text-align: center;
+  }
+  .nine-text > div {
+    width: 98% !important;
+  }
+}
+.nine-text div:first-child {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
 }
 .nine-text > div {
   width: 48%;
