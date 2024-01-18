@@ -1,0 +1,39 @@
+.cardF {
+  max-width: 300px;
+}
+.div-block-164 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1% 5%;
+}
+.div-block-164 > img {
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+.div-block-164 > div {
+  text-align: left;
+}
+.div-block-50 {
+  text-align: left;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  padding: 1rem !important;
+  background-color: #fff;
+  color: black;
+  min-height: 215px;
+}
+.link-3 p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: -0.5rem;
+}
+.text-block-33 p {
+  font-size: 13px;
+  margin-top: 0;
+}
+.paragraph-6 {
+  font-size: 16px;
+}

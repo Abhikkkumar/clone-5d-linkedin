@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/nine.css";
+import CaraouselFooter from "./CarouselFooter";
 
 export default function Nine() {
   return (
@@ -78,6 +79,9 @@ export default function Nine() {
               alt=""
             />
           </div>
+        </div>
+        <div className="nine-carousel">
+          <CaraouselFooter />
         </div>
       </div>
     </div>
