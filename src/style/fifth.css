@@ -1,0 +1,29 @@
+.fifth {
+  max-width: 1020px;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  padding: 5%;
+}
+.f-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1%;
+  padding: 2% 1%;
+}
+@media (max-width: 650px) {
+    .fifth{
+        width: 95%;
+        padding: 2%;
+    }
+  .f-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    margin-bottom: 7rem;
+  }
+  .f-container > div {
+    margin: auto;
+  }
+
+}

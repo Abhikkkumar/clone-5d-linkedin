@@ -5,7 +5,9 @@ import Featured from './components/Featured';
 import Second from './components/Second';
 import Third from './components/Third';
 import Fourth from './components/Fourth';
-
+import Fifth from './components/Fifth';
+import Sixth from './components/Sixth';
+import Seventh from './components/Seventh';
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
       <Second />
       <Third />
       <Fourth />
+      <Fifth />
+      <Sixth />
+      <Seventh />
       
     </div>
   );
