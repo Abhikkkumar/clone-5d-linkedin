@@ -55,20 +55,22 @@ export default function Nine() {
           profitability and their overall bottom lines.
         </p>
         <div className="nine-text">
-          <p>
-            In 2012 (at age 19) I moved from running Discovery Android to
-            founding{" "}
-            <span class="green-text-span-3">
-              an award winning digital media company, CrazyHeads.
-            </span>{" "}
-            Within 3 years, CrazyHead helped 100+ clients over the world grow
-            their businesses using internet. <br />
-            <br />
-            After working at Uber (India and Latin America) for 4.5 years, I
-            joined Klook to lead marketing for India and the Middle East where I
-            scaled the business to over $27M in a year.
-            <br />
-          </p>
+          <div>
+            <p>
+              In 2012 (at age 19) I moved from running Discovery Android to
+              founding{" "}
+              <span class="green-text-span-3">
+                an award winning digital media company, CrazyHeads.
+              </span>{" "}
+              Within 3 years, CrazyHead helped 100+ clients over the world grow
+              their businesses using internet. <br />
+              <br />
+              After working at Uber (India and Latin America) for 4.5 years, I
+              joined Klook to lead marketing for India and the Middle East where
+              I scaled the business to over $27M in a year.
+              <br />
+            </p>
+          </div>
           <div>
             <img
               src="

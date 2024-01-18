@@ -112,3 +112,25 @@
     grid-row: 4/5;
   }
 }
+.nine-text {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 2% auto;
+}
+.nine-text div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nine-text > div {
+  width: 48%;
+}
+.nine-text img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+.nine-wrapper p {
+  color: #fff;
+}
