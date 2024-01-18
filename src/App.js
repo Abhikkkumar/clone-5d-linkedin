@@ -8,6 +8,8 @@ import Fourth from './components/Fourth';
 import Fifth from './components/Fifth';
 import Sixth from './components/Sixth';
 import Seventh from './components/Seventh';
+import Eighth from './components/Eighth';
+import Nine from './components/Nine';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Fifth />
       <Sixth />
       <Seventh />
+      <Eighth />
+      <Nine />
       
     </div>
   );

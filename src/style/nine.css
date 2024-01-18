@@ -1,0 +1,114 @@
+.nine {
+  text-align: center;
+  padding: 4.49rem 0;
+  background-color: #02131b;
+}
+.nine-wrapper {
+  max-width: 1020px;
+  margin: auto;
+  width: 70%;
+}
+@media (max-width: 1048px) {
+  .nine-wrapper {
+    width: 95%;
+  }
+}
+.search-box {
+  width: 100%;
+  height: 60px;
+  max-width: 780px;
+  color: #fff;
+  background-color: #112934;
+  background-image: url("https://assets-global.website-files.com/5fdb2866020c200cd7fd7369/5feb5ccc7c8d4b3e53c43dcf_magnifying-glass%201.svg");
+  background-position: 50px;
+  background-repeat: no-repeat;
+  background-size: 22px;
+  border: 1px #000;
+  border-radius: 10px;
+  margin-top: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 90px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mentor-num {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background-color: #112934;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7rem auto;
+  padding: 1rem;
+}
+.mentor-num p:first-child {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.mentor-num > img {
+  width: 30%;
+  margin-top: 0.4rem;
+}
+.nine-num {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  gap: 1%;
+  margin: 2% auto;
+}
+
+.mnImg {
+  grid-row: 1/1;
+  grid-column: 1/3;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mnImg img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+@media (max-width: 992px) {
+  .nine-num {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1%;
+    margin-top: 1%;
+    text-align: center;
+  }
+  .mnImg {
+    grid-row: 1/4;
+    grid-column: 1/5;
+  }
+}
+@media (max-width: 472px) {
+  .nine-num {
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .mnImg {
+    grid-row: 1/3;
+    grid-column: 1/5;
+  }
+  .mn1 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .mn2 {
+    grid-column: 3/5;
+    grid-row: 3/4;
+  }
+  .mn3 {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+  .mn4 {
+    grid-column: 3/5;
+    grid-row: 4/5;
+  }
+}
